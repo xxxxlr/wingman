@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Origami.unity
   - enabled: 0
     path: Assets/HoloToolkit/Utilities/Tests/TextToSpeechManager.unity
+  - enabled: 0
+    path: Assets/HoloToolkit-Examples/SpatialMappingComponent/SpatialMappingExample.unity

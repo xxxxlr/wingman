@@ -60,7 +60,7 @@ public class ImageRequestManager : MonoBehaviour
         //Resolution: 896x504 at 0Hz.
 
         //Might effect recognization accuracy, especially there's requirment for different detection. but fast for upload to server. 
-        Resolution cameraResolution = PhotoCapture.SupportedResolutions.OrderByDescending((res) => res.width * res.height).Skip(2).First();
+        Resolution cameraResolution = PhotoCapture.SupportedResolutions.OrderByDescending((res) => res.width * res.height).Skip(4).First();
 
         CameraParameters c = new CameraParameters();
         c.hologramOpacity = 0.0f;
